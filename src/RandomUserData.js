@@ -1,4 +1,5 @@
 import React from 'react'
+import './RandomUserData.css'
 
 function RandomUserData() {
     const GenerateRandomUserInfos = () => {
@@ -11,8 +12,8 @@ function RandomUserData() {
                     return `<div className='card'>
                   <section className='info'>
                     <p><strong>Name: </strong><span>${first_name} ${last_name}</span></p>
-                   <p><strong>Email:</strong> ${email}</p>
-                    <p><strong>Address:</strong>${address.city}, ${address.country}</p>
+                   <p><strong>Email: </strong> ${email}</p>
+                    <p><strong>Address: </strong>${address.city}, ${address.country}</p>
                   </section>
                    </div>`;
                 })
